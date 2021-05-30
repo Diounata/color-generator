@@ -17,6 +17,7 @@ export default function Header() {
                     <article
                         style={{ background: `#${background}` }}
                         className={index === 0 ? styles.selected : ''}
+                        title={`#${background}`}
                         key={index}
                     ></article>
                 ))}

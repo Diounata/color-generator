@@ -8,3 +8,17 @@
     font-family: 'Inter', sans-serif;
     cursor: default;
 }
+
+::-webkit-scrollbar {
+    height: 2px;
+    background: inherit;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e1e1e1;
+    border-radius: 1px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.5);    
+}

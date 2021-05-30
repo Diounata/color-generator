@@ -9,7 +9,7 @@
     color: #e1e1e1;
 
     width: 100vw;
-    padding: 1.5rem;
+    padding: 1.2rem;
 
     font-size: 1.2rem;
 
@@ -29,14 +29,16 @@
     div:first-of-type {
         display: grid;
         grid-template-columns: repeat(10, 1fr);
+        gap: 0.5rem;
 
         flex: 1;
+
+        overflow-x: auto;
+        padding: 0.5rem 0;
 
         article {
             display: flex;
             justify-self: center;
-
-            border: 1px solid #000;
 
             width: 2rem;
             height: 2rem;
@@ -45,6 +47,6 @@
 }
 
 .selected {
-    border: 4px solid #000 !important;
+    border: 2px solid #000 !important;
     border-radius: 5px;
 }
