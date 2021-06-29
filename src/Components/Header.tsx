@@ -18,8 +18,8 @@ export default function Header() {
                         style={{ background: `#${background}` }}
                         className={index === 0 ? styles.selected : ''}
                         title={`#${background}`}
-                        key={index}
-                    ></article>
+                        key={index}>    
+                    </article>
                 ))}
             </div>
         </header>
